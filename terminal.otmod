@@ -5,6 +5,8 @@ Module
   website: https://github.com/edubart/otclient
   scripts: [ terminal ]
   sandboxed: true
+  autoload: true
+  autoload-priority: 9999
   reloadable: false
   @onLoad: init()
   @onUnload: terminate()
