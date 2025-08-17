@@ -5,7 +5,7 @@ local LogColors = { [LogDebug] = 'pink',
                     [LogError] = 'red' }
 local MaxLogLines = 128
 local MaxHistory = 1000
-
+GameNoDebug = 1
 local oldenv = getfenv(0)
 setfenv(0, _G)
 _G.commandEnv = runinsandbox('commands')
